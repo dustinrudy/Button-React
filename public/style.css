@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin-left:550px;
+  margin-top: 100px;
   padding: 0;
   font-family: sans-serif;
 }
@@ -13,8 +14,29 @@ body {
 	margin:auto;
 	font-family: Helvetica;
 	font-size: 20px;
-	border-bottom: #217EBA;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 5px solid #217EBA;
 	outline: none;
+	box-shadow: none;
+}
+
+#button:active {
+	background-color: #2B96DD;
+	color: white;
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
+	margin:auto;
+	font-family: Helvetica;
+	font-size: 20px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px solid #217EBA;
+	outline: none;
+	box-shadow: none;
 }
 
 div {
